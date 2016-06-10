@@ -1,0 +1,7 @@
+dist
+node_modules
+.idea
+typings
+.vscode
+*.sublime-project
+*.sublime-workspace

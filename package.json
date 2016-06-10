@@ -1,0 +1,36 @@
+{
+  "name": "react-typescript-boilerplate",
+  "version": "0.1.0",
+  "description": "Basic react boilerplate with TypeScript, webpack and other.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "npm install && ./node_modules/.bin/typings install",
+    "build": "set NODE_ENV=production && webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olegdizus/react-typescript-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "author": "Oleg Dizus <olegdizus@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olegdizus/react-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/olegdizus/react-typescript-boilerplate#readme",
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
